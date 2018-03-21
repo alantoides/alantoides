@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Invie - tus mejores guitarras!!</title>
+	<link rel="stylesheet" href="css/invie.css">
+	<link href="https://fonts.googleapis.com/css?family=Nunito|Work+Sans" rel="stylesheet">
+</head>
+<body>
+	<section id="portada" class="portada fondo" >
+		<header id="header" class="header contenedor">		
+			<figure class="logotipo">
+				<img src="images/invie.png" alt="Logotipo">
+			</figure>
+			<nav class="menu">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="#guitarras">Guitarras</a></li>
+					<li><a href="precios.html">Precios</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div class="contenedor">
+			<h1 class="titulo">Guitarras <span>Invie</span>sibles</h1>		
+			<h3 class="titulo-a">Se la estrella de rock que siempre quisiste ser</h3>
+			<a class="boton" href="#guitarras">ver mas</a>
+		</div>
+	</section>
+	<section id="guitarras" class="guitarras contenedor">
+		<h2>Nuestras Guitarras</h2>
+		<article class="guitarra ">
+			<img src="images/invie-acustica.png" class="derecha" alt="" width="350">
+			<div class="contenedor_caracteristicas-a">
+				<h3 class="titulo-b">Invie Acustica</h3>
+				<ol>
+					<li>Estilo vintage</li>
+					<li>Madera pura</li>
+					<li>Incluye Estuche</li>				
+				</ol>
+			</div>
+		</article>
+		
+		<article class="guitarra">
+			<img src="images/invie-classic.png" class="izquierda" alt="" width="450">
+			<div class="contenedor_caracteristicas-b">
+				<h3 class="titulo-b	">Invie Clásica</h3>
+				<ol>
+					<li>Estilo vintage</li>
+					<li>Madera pura</li>
+					<li>Inicia en el camino </li>				
+				</ol>
+			</div>
+		</article>
+	</section>
+	<footer class="pie">
+		<div class="contenedor">
+			<div class="contacto">
+				<img src="images/invie-white.png" alt="logotipo"/>
+				<a href="tel:+51960172564" title="">
+					<strong>Telefono</strong>
+					<span>960172564</span>
+				</a>
+				<a href="mailto:alan21.gutierrez@gmail.com" title="">
+					<strong>E-mail</strong>
+					<span>alan21@gmail.com</span>
+				</a>
+
+			</div>
+			<form class="formulario">
+				<div class="col1">
+					<label for="nombre">Nombre</label>
+					<input type="text" id="nombre" name="nombre" required placeholder="Tu Nombre" />
+					<label for="email">E-mail</label>
+					<input type="email" id="email" name="email" required />
+					
+					<div class="sexo">
+						<label for="mujer">
+							<input type="radio" checked id="mujer" name="sexo" value="mujer"> Mujer
+						</label>
+
+						<label for="hombre">
+							<input type="radio" id="hombre" name="sexo" value="hombre"> Hombre
+						</label>
+					</div>	
+					<div class="intereses">
+						<label for="cotizacion">
+							<input type="checkbox" checked id="cotizacion" name="intereses" value="cotizacion"> Cotizacion
+						</label>
+						<label for="reclamos">
+							<input type="checkbox" id="reclamos" name="intereses" value="reclamos"> Reclamos
+						</label>
+						<label for="comentarios">
+							<input type="checkbox" id="comentarios" name="intereses" value="comentarios"> Comentarios
+						</label>
+						<label for="otros">
+							<input type="checkbox" id="otros" name="intereses" value="otros"> Otros
+						</label>
+					</div>
+				</div>
+				<div class="col2">
+					<label for="comentarios">Comentarios</label>
+					<textarea name="" id="comentarios" cols="30" rows="7"></textarea>
+					<input type="submit" value="Enviar" class="boton" />
+				</div>
+			</form>
+		</div>
+	</footer>
+</body>
+</html>
